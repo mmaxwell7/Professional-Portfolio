@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio contact Page </title>
+    <style>
+        body {
+            display: block;
+            margin: auto;
+            width: 95%;
+            background-image: url("https://images.unsplash.com/photo-1517495306984-f84210f9daa8?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-repeat: no-repeat;
+            background-size: cover;            
+        } 
+        header {
+        text-align: center;
+        background-color:cadetblue;
+        font-size: 30px;
+                }
+        #nav-link {
+            color:black;
+            text-decoration: none;
+            font-size: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+        }
+        
+        h3 {
+            color: cadetblue; 
+            text-align: center;
+            font-weight:bolder 
+        }
+        #demographics, #areaofinterest, #personalinfo, #clientlogin {
+            font-size: 36px;
+            color: navy;}
+        fieldset {
+            width:60%;
+            display: block;
+            margin: auto;
+            border-radius: 15px;
+            border: 5px dashed whitesmoke;
+            font-size: 18;
+        }
+        p {font-size: 24px;}
+        #contactinfo {display: block;
+                text-align: center;}
+                div {
+                    text-align: auto;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./projects.html">Projects</a>
+            <a href="./resume.html">Resume</a>
+        </nav>
+    </header>
+    <h1>CONTACT ME FOR MORE INFORMATION ABOUT</h1>
+    <hr>
+    <br>
+    <p>Please fill out this survey:</p>
+    <hr>
+    <br>
+    <fieldset id="login_information">
+    <label for="areaofinterest" id="areaofinterest">AREAS OF INTEREST:</label>
+    <br><br>
+    <input type="checkbox" id="Social Emotional"> 
+    <label for="Social Emotional Strategies">Social Emotional Strategies</label>
+    <br><br>
+    <input type="checkbox" id="Heavy Work for Children"> 
+    <label for="Heavy Work for Children">Heavy Work for Children</label>
+    <br><br>
+    <input type="checkbox" id="Classroom Environment">
+    <label for="Classroom Environment">Classroom Environment</label>
+    <br><br>
+    <input type="checkbox" id="De-esalation Techniques">
+    <label for="De-esalation Techniques">De-esalation Techniques</label>
+    <br><br>
+    <input type="checkbox" id="Organization">
+    <label for="Organization">Organization</label>
+    <br><br>
+    <input type="checkbox" id="Trauma Responses">
+    <label for="Trauma Responses">Trauma Responses</label>
+    <br><br>
+    <input type="checkbox" id="Mindfulness">
+    <label for="Mindfulness">Mindfulness</label>
+    <br><br>
+    <form>
+<br><br><br>
+<form>
+    <label for="demographics" id="demographics">DEMOGRAPHICS:</label>
+    <br><br>
+    What is your gender?<br>
+<br>
+<input type="radio" name="gender" id="male" value="male"> <label>Male</label>
+<input type="radio" name="gender" id="male" value="female"> <label>Female</label>
+<input type="radio" name="gender" id="male" value="other"> <label>Other</label>
+</form>
+<br><br>
+<form>
+What age group do you work with?<br><br>
+<input type="radio" name="preK" id="preK" value="preK"> <label>preK</label>
+<input type="radio" name="k-3" id="K-3" value="K-3"> <label>K-3</label>
+<input type="radio" name="4-8" id="4-8" value="4-8"> <label>4-8</label>
+<input type="radio" name="teen" id="teen" value="teen"> <label>Teen</label>
+<input type="radio" name="adult" id="adult" value="adult"> <label>Adult</label>
+</form>
+</p>
+<br><br><br>
+
+
+    </form>
+    <form>
+        <label for="personalinfo" id="personalinfo" style="text-align: auto;"> PERSONAL INFORMATION:</label>
+        <br><br>
+            <label for="firstname"> First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <br>
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <br><br>
+            <label for="steetaddress">Street Address:</label>
+            <input type="text" id="streetaddress" name="streetaddress" required>
+            <br><br>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+            <br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+            <br><br>
+            <label for="zipcode">Zip Code:</label>
+            <input type="text" id="zipcode" name="zipcode" required>
+            <br><br>
+            <label for="countries">Countries</label>
+    <select name="counties" id="countries">
+<option value=" ">Select a Country</option>
+<option value="USA">USA</option>
+<option value="Mexico">Mexico</option>
+<option value="Canada">Canada</option>
+<option value="Russia">Russia</option>
+    </select> 
+    <br><br>
+    <input type="submit" value="Submit Form">
+</fieldset>
+    <br><br>
+<fieldset>
+    <label for="clientlogin" id="clientlogin" style="text-align: auto;"> CLIENT LOGIN</label>
+    <BR></BR></BR>
+            <label for="Email"> Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="password"> Password: (For Clients Only) </label><br>
+            <input type="password" id="password" name="password" required> 
+            <br><br>
+            <input type="submit" value="Login">
+</fieldset>
+            <br><br>
+            <footer>
+                <h3>Contact Info</h3>
+                        <div id="contactinfo" name="contactinfo" Contact Info> 
+                            814 E 3950 S Apt D, 
+                            Millcreek, UT 84107   
+                            (480)-298-8209 
+                            mfmaxwell7@gmail.com<br>
+                        </div>
+                    </footer>
+    </form>
+    
+
+    
+</body>
+</html>
